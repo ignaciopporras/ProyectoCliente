@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portal sencillo de SaludConecta para citas, consultas y resultados médicos.">
+  <title>Inicio | SaludConecta</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar-contenido" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="encabezado">
+    <a class="marca" href="index.html" aria-label="Ir al inicio de SaludConecta">
+      <img src="img/logo-saludconecta.svg" alt="" width="56" height="56">
+      <span>SaludConecta</span>
+    </a>
+    <a class="ayuda-rapida" href="contacto.html">¿Necesita ayuda?</a>
+  </header>
+
+  <nav class="navegacion" aria-label="Navegación principal">
+    <ul>
+      <li><a class="activo" aria-current="page" href="index.html">Inicio</a></li>
+      <li><a href="informacion.html">Información</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="hero-texto">
+        <p class="etiqueta">Su salud en un solo lugar</p>
+        <h1>¡Bienvenido a SaludConecta!</h1>
+        <p class="introduccion">¿Qué necesita hacer hoy? Elija una opción y le guiaremos paso a paso.</p>
+        <div class="acciones-principales">
+          <a class="boton boton-principal" href="servicios.html#agendar">Agendar una cita</a>
+          <a class="boton boton-secundario" href="servicios.html#consulta">Hacer una consulta</a>
+        </div>
+      </div>
+      <img class="imagen-principal" src="img/portal-salud.svg" alt="Teléfono con un corazón y una cruz médica que representa el portal SaludConecta">
+    </section>
+
+    <section class="seccion" aria-labelledby="tareas-titulo">
+      <div class="titulo-seccion">
+        <div>
+          <p class="etiqueta">Accesos directos</p>
+          <h2 id="tareas-titulo">Encuentre lo que busca</h2>
+        </div>
+        <a class="enlace-texto" href="servicios.html">Ver todos los servicios</a>
+      </div>
+
+      <div class="rejilla-tarjetas">
+        <article class="tarjeta">
+          <span class="icono" aria-hidden="true">01</span>
+          <h3>Resultados médicos</h3>
+          <p>Consulte sus resultados de forma ordenada y fácil de entender.</p>
+          <a href="servicios.html#resultados">Ver resultados</a>
+        </article>
+        <article class="tarjeta">
+          <span class="icono" aria-hidden="true">02</span>
+          <h3>Consultar con un médico</h3>
+          <p>Conozca las opciones disponibles para recibir orientación médica.</p>
+          <a href="servicios.html#medico">Ver opciones</a>
+        </article>
+        <article class="tarjeta">
+          <span class="icono" aria-hidden="true">03</span>
+          <h3>Historial médico</h3>
+          <p>Revise en un solo lugar la información principal de su atención.</p>
+          <a href="informacion.html#historial">Más información</a>
+        </article>
+        <article class="tarjeta">
+          <span class="icono" aria-hidden="true">04</span>
+          <h3>Farmacia</h3>
+          <p>Encuentre indicaciones simples para consultar sus medicamentos.</p>
+          <a href="servicios.html#farmacia">Ir a farmacia</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="pasos" aria-labelledby="pasos-titulo">
+      <p class="etiqueta">Primera visita</p>
+      <h2 id="pasos-titulo">Comience en tres pasos</h2>
+      <ol>
+        <li><strong>Elija una opción.</strong> Use el menú o uno de los botones grandes.</li>
+        <li><strong>Lea las instrucciones.</strong> Cada pantalla explica qué debe hacer.</li>
+        <li><strong>Confirme con calma.</strong> Revise la información antes de continuar.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>SaludConecta</strong></p>
+    <p>Un portal claro y sencillo para cuidar su salud.</p>
+    <p><small>&copy; 2026 SaludConecta. Proyecto académico.</small></p>
+  </footer>
+</body>
+</html>

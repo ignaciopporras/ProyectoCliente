@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Centro de ayuda del prototipo SaludConecta.">
+  <title>Contacto | SaludConecta</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar-contenido" href="#contenido">Saltar al contenido principal</a>
+  <header class="encabezado">
+    <a class="marca" href="index.html" aria-label="Ir al inicio de SaludConecta">
+      <img src="img/logo-saludconecta.svg" alt="" width="56" height="56">
+      <span>SaludConecta</span>
+    </a>
+    <a class="ayuda-rapida" href="contacto.html" aria-current="page">Centro de ayuda</a>
+  </header>
+  <nav class="navegacion" aria-label="Navegación principal">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="informacion.html">Información</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a class="activo" aria-current="page" href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main id="contenido">
+    <section class="cabecera-pagina">
+      <p class="etiqueta">Centro de ayuda</p>
+      <h1>¿Cómo podemos ayudarle?</h1>
+      <p class="introduccion">Lea las preguntas frecuentes o complete el formulario de demostración. No se enviará ni almacenará información.</p>
+    </section>
+
+    <section class="dos-columnas seccion">
+      <div>
+        <h2>Preguntas frecuentes</h2>
+        <details>
+          <summary>¿Cómo agendo una cita?</summary>
+          <p>Entre en Servicios, busque “Agendar una cita” y siga las instrucciones indicadas.</p>
+        </details>
+        <details>
+          <summary>¿Dónde veo mis resultados?</summary>
+          <p>Entre en Servicios y seleccione “Resultados médicos”.</p>
+        </details>
+        <details>
+          <summary>¿Puedo usar el sitio desde el celular?</summary>
+          <p>Sí. El diseño se adapta a pantallas pequeñas y mantiene botones grandes.</p>
+        </details>
+      </div>
+
+      <form class="formulario" action="#" method="get">
+        <h2>Formulario de demostración</h2>
+        <p class="texto-pequeno">Los campos con * son obligatorios.</p>
+        <label for="nombre">Nombre *</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+
+        <label for="correo">Correo electrónico *</label>
+        <input id="correo" name="correo" type="email" autocomplete="email" required>
+
+        <label for="mensaje">¿Qué necesita? *</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button class="boton boton-principal" type="submit">Revisar solicitud</button>
+      </form>
+    </section>
+
+    <section class="navegacion-pagina" aria-label="Botones de navegación de la página">
+      <a class="boton boton-secundario" href="servicios.html">Volver a servicios</a>
+      <a class="boton boton-principal" href="index.html">Ir al inicio</a>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>SaludConecta</strong></p>
+    <p>Un portal claro y sencillo para cuidar su salud.</p>
+    <p><small>&copy; 2026 SaludConecta. Proyecto académico.</small></p>
+  </footer>
+</body>
+</html>
