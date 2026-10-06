@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 470" role="img" aria-labelledby="title desc">
+  <title id="title">Portal móvil de salud</title>
+  <desc id="desc">Ilustración de un teléfono con botones grandes, un corazón y una cruz médica.</desc>
+  <rect x="80" y="35" width="310" height="400" rx="36" fill="#ffffff" stroke="#0b5d55" stroke-width="12"/>
+  <rect x="115" y="90" width="240" height="62" rx="16" fill="#e6f3ef"/>
+  <circle cx="148" cy="121" r="18" fill="#0b5d55"/>
+  <path d="M143 112h10v7h7v10h-7v7h-10v-7h-7v-10h7Z" fill="#fff"/>
+  <text x="178" y="130" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#073f3a">SaludConecta</text>
+  <rect x="115" y="184" width="240" height="54" rx="12" fill="#0b5d55"/>
+  <rect x="115" y="257" width="240" height="54" rx="12" fill="#e6f3ef" stroke="#0b5d55" stroke-width="3"/>
+  <rect x="115" y="330" width="240" height="54" rx="12" fill="#e6f3ef" stroke="#0b5d55" stroke-width="3"/>
+  <text x="164" y="218" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">Agendar cita</text>
+  <text x="157" y="291" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#073f3a">Ver resultados</text>
+  <text x="158" y="364" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#073f3a">Pedir ayuda</text>
+  <circle cx="465" cy="175" r="104" fill="#f3a83b"/>
+  <path d="M465 241c-55-36-76-66-76-95 0-27 19-46 44-46 15 0 26 7 32 18 7-11 18-18 33-18 25 0 44 19 44 46 0 29-22 59-77 95Z" fill="#ffffff"/>
+  <path d="M450 132h30v30h30v30h-30v30h-30v-30h-30v-30h30Z" fill="#0b5d55"/>
+  <path d="M412 330c42-43 105-32 134 10" fill="none" stroke="#0b5d55" stroke-width="16" stroke-linecap="round"/>
+  <path d="M410 330l15-42M546 340l-2-45" fill="none" stroke="#0b5d55" stroke-width="16" stroke-linecap="round"/>
+</svg>
